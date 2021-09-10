@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Ubuntu+Mono&display=swap');
+
+$blue-light: rgba(41, 98, 255, 0.1);
+$blue: rgba(96, 102, 208, 0.7);
+$blue-dark: #0039CB;
+$orange: #F9A826;
+$orange-dark: #f39c12;
+$green: #60BF88;
+$red: #EA8282;
+
+$button-font: 14px;
+
+.btn {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	font-size: 14px;
+	padding: 8px 16px;
+	font-family: 'Poppins', sans-serif;
+	background: $orange;
+	box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+	border: 2px solid $orange;
+	border-radius: 6px;
+	line-height: 20px;
+	transition: all 0.2s;
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.material-icons {
+	font-family: 'Material Icons', 'Poppins'!important;
+	font-weight: 700;
+	font-size: 1.2em;
+	align-self: baseline;
+}
+
+.material-icons-outlined {
+	font-family: 'Material Icons Outlined';
+	font-weight: normal;
+	align-self: center;
+	font-size: 16px;
+}
+
+.no-shadow, %no-shadow {
+	box-shadow: none;
+}
+
+.btn:hover, .btn-hover {
+	background-color: $orange-dark;
+	border-color: $orange-dark;
+	cursor: pointer;
+}
+
+.outline, %outline {
+	@extend %no-shadow;
+	border: 2px solid $blue;
+	border-radius: 6px;
+	background-color: white;
+	color: $blue;
+}
+
+.outline:hover, .outline-hover {
+	@extend %outline;
+	color: white;
+	background: $orange;
+	border: 2px solid $orange;
+}
+
+.text, %text {
+	@extend %outline;
+	border: none;
+	background-color: white;
+	color: $blue;
+}
+
+.text:hover, .text-hover {
+	@extend %text;
+	background: $blue-dark;
+}
+
+.long {
+	width: 100%;
+	text-align: center;
+}
+
+.medium {
+	width: 50%;
+	text-align: center;
+}
+
+.short {
+	width: 25%;
+}
+
+.short span {
+	margin: 0 auto;
+}
+
+.right {
+	align-self: flex-end;
+}
+
+.center {
+	align-self: center;
+}
+
+.dark-blue {
+	@extend %outline;
+	border-color: #1D355D;
+	color: #1D355D;
+}
+
+.correct, .correct:hover {
+	@extend %outline;
+	background-color: $green;
+	border-color: $green;
+	color: white;
+}
+
+.wrong, .wrong:hover {
+	@extend %outline;
+	background-color: $red;
+	border-color: $red;
+	color: white;
+}
+
+@media screen and (max-width: 800px) {
+	.short {
+		width: 33%;
+	}
+}

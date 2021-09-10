@@ -1,0 +1,17 @@
+.header {
+  width: calc(100% + 32px);
+  font-size: 24px;
+  font-weight: 700;
+  color: #F2F2F2;
+  text-align: left;
+  align-self: flex-start;
+  margin-left: -32px;
+}
+
+@media screen and (max-width: 800px) {
+  span.header {
+    margin-left: 0px;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */

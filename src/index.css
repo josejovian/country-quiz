@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500;700&display=swap");
+html {
+  background-color: #5256a1;
+  background-image: url("./background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: "Poppins";
+  user-select: none;
+}
+
+a {
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
