@@ -7,4 +7,5 @@
 * [REST Countries API](https://restcountries.eu/)
 * [People vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/people)
 * [Gold vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/gold)
+* [Tree vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/tree)
 * [Material Icons](https://fonts.google.com/icons)
