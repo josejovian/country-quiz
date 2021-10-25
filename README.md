@@ -13,14 +13,14 @@
 
 # Screenshots
 
-The following is the question page.
+The following is the question page.  
 ![Screenshot 1](https://drive.google.com/uc?id=1uA-LIq4DeAT9g8ad2-rsNXRrLqaNKkVu "Screenshot 1")
 
-Answering a question correctly.
+Answering a question correctly.  
 ![Screenshot 2](https://drive.google.com/uc?id=1GHaZnWIZFDQPiMmy7mpMQ133nn4dVa5- "Screenshot 2")
 
-Answering a question incorrectly.
+Answering a question incorrectly.  
 ![Screenshot 3](https://drive.google.com/uc?id=1AVBoFdZzRLO50F8XokvIzRd-TX4h1qez "Screenshot 3")
 
-The results screen. This is displayed after answering a question incorrectly.
+The results screen. This is displayed after answering a question incorrectly.  
 ![Screenshot 4](https://drive.google.com/uc?id=1Rp3cz3CPia0DClF8Fy-yEurzlXjHzYfw "Screenshot 4") 
