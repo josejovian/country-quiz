@@ -20,7 +20,7 @@ Answering a question correctly.
 ![Screenshot 2](https://drive.google.com/uc?id=1GHaZnWIZFDQPiMmy7mpMQ133nn4dVa5- "Screenshot 2")
 
 Answering a question incorrectly.
-![Screenshot 2](https://drive.google.com/uc?id=1AVBoFdZzRLO50F8XokvIzRd-TX4h1qez "Screenshot 3")
+![Screenshot 3](https://drive.google.com/uc?id=1AVBoFdZzRLO50F8XokvIzRd-TX4h1qez "Screenshot 3")
 
 The results screen. This is displayed after answering a question incorrectly.
-![Screenshot 2](https://drive.google.com/uc?id=1Rp3cz3CPia0DClF8Fy-yEurzlXjHzYfw "Screenshot 4") 
+![Screenshot 4](https://drive.google.com/uc?id=1Rp3cz3CPia0DClF8Fy-yEurzlXjHzYfw "Screenshot 4") 
