@@ -43,7 +43,7 @@ function App() {
 
 	return (
 		<div class="App">
-			<img id="decoration" src="//raw.githubusercontent.com/josejovian/country-quiz/gh-pages/globe.png" alt="Globe"/>
+			<img id="decoration" src="//github.com/josejovian/country-quiz/blob/master/public/globe.png?raw=true" alt="Globe"/>
 			<Header />
 			<AppBox checkAnswer={checkAnswer} reset={reset} question={question} score={score}/>
 			<Footer />

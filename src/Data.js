@@ -76,7 +76,7 @@ async function getData() {
 
 	let prom = new Promise(function(reso, reje) {
 		let req = new XMLHttpRequest();
-		req.open('GET', 'https://restcountries.eu/rest/v2/all?fields=name;capital;flag');
+		req.open('GET', 'https://restcountries.com/v2/all?fields=name,capital,flag');
 		req.onload = function() {
 			if (req.status === 200) {
 				reso(req.response);

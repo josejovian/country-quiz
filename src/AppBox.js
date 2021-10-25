@@ -29,10 +29,10 @@ function AppBox(props) {
 
 	const checkQuestion = useCallback(() => {
 		if(allowAnswers === true) {
-			if(request < 10 && props.question.question === "null") {
+			if(request < 1 && props.question.question === "null") {
 				props.reset(true);
 				setStatus(0);
-				setTimeout(() => {setRequest(request + 1)}, 100);
+				setTimeout(() => {setRequest(request + 1)}, 500);
 			} else if(props.question.question !== "null") {
 				setStatus(1);
 			} else if(props.question.question === "null") {
@@ -92,7 +92,7 @@ function AppBox(props) {
 	return (
 		<div class="text-box" style={{height: height + "px"}}>
 			<div class={"content-box " + ((status === 0) ? "" : "hidden")}>
-				<img id="loading" src="/logo192.png" alt="React"/>
+				<img id="loading" src="//github.com/josejovian/country-quiz/blob/master/public/logo192.png?raw=true" alt="React"/>
 				<div id="results">Loading...</div>
 			</div>
 			<div class={"content-box " + ((status === 1) ? "" : "hidden")}>
