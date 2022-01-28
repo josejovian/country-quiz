@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './css/style.css';
 import { useState, useEffect } from 'react';
 import { Button } from "./Button.js";
@@ -28,6 +27,7 @@ const Template = ({children}) => {
 		<div className="App">
 			<div className='card'>
 				<Title />
+				<img id="decoration" src="//github.com/josejovian/country-quiz/blob/master/public/globe.png?raw=true" alt="Globe"/>
 				<div className='card-content'>
 					{children}
 				</div>

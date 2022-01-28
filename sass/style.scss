@@ -11,7 +11,7 @@ $d-blue: #2f527b;
 	align-items: center;
 
 	background-image: url('../../public/background.webp');
-	background-size: 100% auto;
+	background-size: cover;
 
 	font-family: "Poppins";
 }
@@ -143,4 +143,18 @@ footer {
 		transform: rotate(360deg);
 	}
 }
-  
+
+img#decoration {
+	z-index: 1;
+	position: absolute;
+	width: 180px;
+	height: auto;
+	right: -32px;
+	top: -80px;
+}
+
+@media only screen and (max-width: 576px) {
+	.card {
+		width: calc(100% - 128px)!important;
+	}
+}
