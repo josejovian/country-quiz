@@ -1,5 +1,6 @@
 var countryJSON = [];
 
+// Process the data into JSON.
 export async function processData(callback, rawData) {
 	rawData = rawData.replace('[{', '');
 	rawData = rawData.replace('}]', '');
@@ -19,6 +20,7 @@ export async function processData(callback, rawData) {
 	return callback(countryJSON);
 }
 
+// Fetch data from API.
 export async function getData(callback) {
 	// https://github.com/mdn/js-examples/blob/master/promises-test/index.html
 
