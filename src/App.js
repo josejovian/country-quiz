@@ -1,54 +1,25 @@
-import React, { useState } from 'react';
-
-import getData from './Data.js';
-import Question from './Question.js';
-import Header from './Header.js';
-import AppBox from './AppBox.js';
-import Footer from './Footer.js';
-
+import logo from './logo.svg';
 import './App.css';
 
-var initialized = 0;
-var score = 0;
-var status = 0;
-var currentQuestion = new Question('null', 0, ['null', 'null', 'null', 'null'], 'null', 0);
-
 function App() {
-
-	const [question, setQuestion] = useState(currentQuestion);
-	
-	const getQuestion = async () => {
-		currentQuestion = await getData();
-		setQuestion(currentQuestion);
-		status = 1;
-	}
-
-	function checkAnswer(isTrue) {
-		if(isTrue === true) {
-			score++;
-		}
-	}
-
-	function reset(isTrue) {
-		if(isTrue === false)
-			score = 0;
-		getQuestion();
-	}
-
-	if(initialized === 0) {
-		getQuestion();
-		status = 1;
-		initialized++;
-	}
-
-	return (
-		<div class="App">
-			<img id="decoration" src="//github.com/josejovian/country-quiz/blob/master/public/globe.png?raw=true" alt="Globe"/>
-			<Header />
-			<AppBox checkAnswer={checkAnswer} reset={reset} question={question} score={score}/>
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
