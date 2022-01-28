@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Ubuntu+Mono&display=swap");
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 14px;
+  padding: 8px 16px;
+  font-family: "Poppins", sans-serif;
+  background: #F9A826;
+  box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+  border: 2px solid #F9A826;
+  border-radius: 6px;
+  line-height: 20px;
+  transition: all 0.2s;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.material-icons {
+  font-family: "Material Icons", "Poppins" !important;
+  font-weight: 700;
+  font-size: 1.2em;
+  align-self: baseline;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons Outlined";
+  font-weight: normal;
+  align-self: center;
+  font-size: 16px;
+}
+
+.no-shadow, .outline, .wrong, .wrong:hover, .correct, .correct:hover, .dark-blue, .text, .text:hover, .text-hover, .outline:hover, .outline-hover {
+  box-shadow: none;
+}
+
+.btn:hover, .btn-hover {
+  background-color: #f39c12;
+  border-color: #f39c12;
+  cursor: pointer;
+}
+
+.outline, .wrong, .wrong:hover, .correct, .correct:hover, .dark-blue, .text, .text:hover, .text-hover, .outline:hover, .outline-hover {
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  border-radius: 6px;
+  background-color: white;
+  color: rgba(96, 102, 208, 0.7);
+}
+
+.outline:hover, .outline-hover {
+  color: white;
+  background: #F9A826;
+  border: 2px solid #F9A826;
+}
+
+.text, .text:hover, .text-hover {
+  border: none;
+  background-color: white;
+  color: rgba(96, 102, 208, 0.7);
+}
+
+.text:hover, .text-hover {
+  background: #0039CB;
+}
+
+.long {
+  width: 100%;
+  text-align: center;
+}
+
+.medium {
+  width: 50%;
+  text-align: center;
+}
+
+.short {
+  width: 25%;
+}
+
+.short span {
+  margin: 0 auto;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.center {
+  align-self: center;
+}
+
+.dark-blue {
+  border-color: #1D355D;
+  color: #1D355D;
+}
+
+.correct, .correct:hover {
+  background-color: #60BF88;
+  border-color: #60BF88;
+  color: white;
+}
+
+.wrong, .wrong:hover {
+  background-color: #EA8282;
+  border-color: #EA8282;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .short {
+    width: 33%;
+  }
+}
