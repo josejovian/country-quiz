@@ -4,7 +4,7 @@
 * This is my attempt on the [Country Quiz Challenge](https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8). 
 * The app has implemented all of the User Stories.
 * I have also implemented basic responsiveness.
-* The API is fetched only once, that is, when the app is first launched. Since the country data is saved on the local storage, the app will not make any more API calls.
+* I restarted this project since there were some things I could've done better. For instance, every time the app is launched, the data is always fetched. Now, the data is only fecthed once, that is, when the app is first launched, and these data will be saved on local storage. Since the country data is saved on the local storage, the app will not make any more API calls on subsequent launches.
 * [REST Countries API](https://restcountries.com/)
 * [People vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/people)
 * [Gold vector created by pch.vector - www.freepik.com](https://www.freepik.com/vectors/gold)
