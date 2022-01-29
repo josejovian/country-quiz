@@ -105,6 +105,7 @@ footer a {
 
 .lds-dual-ring {
   display: inline-block;
+  align-self: center;
   width: 64px;
   height: 64px;
 }
